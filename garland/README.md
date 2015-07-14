@@ -1,7 +1,7 @@
 Simple script for determining degree of garland words, 
 if word is indeed a garland word.
 
-From www.reddit.com/r/dailyprogrammer/Users/christopherlee/Desktop/dailyprogrammer/comments/3d4fwj/20150713_challenge_223_easy_garland_words/ 
+From www.reddit.com/r/dailyprogrammer/comments/3d4fwj/20150713_challenge_223_easy_garland_words/ 
 
 A garland word is one that starts and ends with the same N letters 
 in the same order, for some N greater than 0, but less than the 

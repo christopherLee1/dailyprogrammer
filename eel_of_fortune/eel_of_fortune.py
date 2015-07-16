@@ -30,16 +30,13 @@ def problem(mys_word, off_word):
    hang_word = ''
    for i in range(len(off_word)):
       index = mys_word.find(off_word[i])
-      if index in hang_list: #find next instance
+      while index in hang_list: #find next instance
          index = mys_word.find(off_word[i], index+1)
       hang_list.append(index)
    hang_list = sorted(hang_list)
    for index in hang_list:
       hang_word += mys_word[index]
-   if hang_word == off_word:
-      return True
-   else:
-      return False
+   return hang_word == off_word
 
 #subreddit python answer, so beautiful
 def problem1(a, b):
